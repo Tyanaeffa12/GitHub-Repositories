@@ -124,6 +124,7 @@ body {
   border: 1px solid #dbdade;
   font-size: 20px;
   border-radius: 5px;
+  text-decoration: none;
   
 }
 .pagination-next {
@@ -133,6 +134,7 @@ body {
   border: 1px solid #dbdade;
   font-size: 20px;
   border-radius: 5px;
+  text-decoration: none;
   
   
 }
@@ -147,6 +149,7 @@ li {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 10px;
+  text-decoration: none;
 }
 @media screen and (max-width: 961px) {
 }
