@@ -72,8 +72,13 @@ export default {
   background-color: #61587c;
 }
 
-.repo-ul{
-    word-wrap: break-word;
-}
 
+
+@media screen and (max-width: 481px) {
+  .repo-box {
+    width: 70%;
+    margin: 40px;
+
+  }
+}
 </style>
