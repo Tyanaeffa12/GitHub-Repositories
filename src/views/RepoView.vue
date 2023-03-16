@@ -1,7 +1,7 @@
 <template>
   <div class="repo-box">
     <h1>Repository</h1>
-    <ul style="text-transform: capitalize" v-if="Object.keys(repository).length !== 0">
+    <ul class="repo-ul" style="text-transform: capitalize" v-if="Object.keys(repository).length !== 0">
       <li>Name: {{ repository.name }}</li>
       <li>Description: {{ repository.description }}</li>
       <li>Stars: {{ repository.stargazers_count }}</li>
@@ -72,5 +72,8 @@ export default {
   background-color: #61587c;
 }
 
+.repo-ul{
+    word-wrap: break-word;
+}
 
 </style>
